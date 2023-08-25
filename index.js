@@ -11,7 +11,7 @@ const app=express();
 app.use(express.json());
  app.use(cors({
     credentials:true,
-    origin:["https://work-wise-fe.vercel.app"]
+    origin:["https://workkwise.vercel.app"]
  }));
 
 
