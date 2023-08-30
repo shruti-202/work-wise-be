@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: ["https://workkwise.vercel.app", "http://localhost:5173"],
+    origin: ["https://workkwise.vercel.app"],
   })
 );
 
